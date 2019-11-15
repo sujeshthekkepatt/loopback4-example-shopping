@@ -80,7 +80,6 @@ export class UserController {
         'application/json': {
           schema: getModelSchemaRef(NewUserRequest, {
             title: 'NewUser',
-            exclude: ['id'],
           }),
         },
       },
